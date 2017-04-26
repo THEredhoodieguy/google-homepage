@@ -12,6 +12,17 @@ img {
 
 button {
     border-width: 0;
+    background-color: #F2F2F2;
+    min-height: 36px;
+    min-width: 125px;
+
+    margin-right: 4px;
+    margin-left: 4px;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
 }
 
 .search_bar {
@@ -19,6 +30,9 @@ button {
     width: 45%;
     margin-right: 17.5%;
     margin-left: 17.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 .search_buttons {
