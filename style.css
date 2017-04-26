@@ -1,6 +1,6 @@
 body {
-    width: 100%;
     text-align: center;
+    margin: 0;
 }
 
 
@@ -33,8 +33,40 @@ button {
     margin-top: 20px;
     margin-bottom: 20px;
 
+    border-color: #F2F2F2;
+
 }
 
 .search_buttons {
     text-align: center;
+}
+
+#header {
+    min-height: 40px;
+    width: 100%;
+
+    text-align: right;
+}
+
+#footer {
+    min-height: 40px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+
+    position: fixed;
+    bottom: 10px;
+
+    background-color: #F2F2F2;
+    padding-bottom: 10px;
+}
+
+.footer-left_text {
+    text-align: left;
+}
+
+.footer-right_text {
+    text-align: right;
 }
